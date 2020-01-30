@@ -8,7 +8,7 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>fi.vamk.e1800917</groupId>
+	<groupId>fi.vamk.e1800935</groupId>
 	<artifactId>spring3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring3</name>
@@ -19,6 +19,16 @@
 	</properties>
 
 	<dependencies>
+		<!--To add security-->
+		<dependency>
+  		<groupId>org.springframework.boot</groupId>
+ 		 <artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<!--To enable XML format-->
+		<dependency>
+ 		 <groupId>com.fasterxml.jackson.dataformat</groupId>
+ 		 <artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

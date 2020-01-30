@@ -1,4 +1,4 @@
-package fi.vamk.e1800917.spring3;
+package fi.vamk.e1800935.spring3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
